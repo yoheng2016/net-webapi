@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Z-Web", "Z-Web\Z-Web.csproj", "{FEA13CF1-C9D2-4F7F-9882-9B4F39D74AD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Z-WebFramework", "Z-WebFramework\Z-WebFramework.csproj", "{F439BF63-63D6-4597-8CA8-95F1AF184FD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiFramework", "ApiFramework\ApiFramework.csproj", "{020B0E06-AA75-473A-BB53-77A03B685783}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{8FBBC206-014C-40D5-B382-F0172D28A17B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "web", "web", "{4B4C4FFF-4C43-4BD1-B862-389CB7E00877}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{F974EDC5-A7EA-4E93-95D6-E1D145485EEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tenement", "Tenement\Tenement.csproj", "{FE5A831D-B612-49E4-84D4-B538E05E3CD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flour", "Flour\Flour.csproj", "{9743A7D2-1FB0-4A03-9CC1-C4B4A532C3BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEA13CF1-C9D2-4F7F-9882-9B4F39D74AD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEA13CF1-C9D2-4F7F-9882-9B4F39D74AD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEA13CF1-C9D2-4F7F-9882-9B4F39D74AD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEA13CF1-C9D2-4F7F-9882-9B4F39D74AD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F439BF63-63D6-4597-8CA8-95F1AF184FD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F439BF63-63D6-4597-8CA8-95F1AF184FD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F439BF63-63D6-4597-8CA8-95F1AF184FD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F439BF63-63D6-4597-8CA8-95F1AF184FD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{020B0E06-AA75-473A-BB53-77A03B685783}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{020B0E06-AA75-473A-BB53-77A03B685783}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{020B0E06-AA75-473A-BB53-77A03B685783}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{020B0E06-AA75-473A-BB53-77A03B685783}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FBBC206-014C-40D5-B382-F0172D28A17B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FBBC206-014C-40D5-B382-F0172D28A17B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FBBC206-014C-40D5-B382-F0172D28A17B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FBBC206-014C-40D5-B382-F0172D28A17B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE5A831D-B612-49E4-84D4-B538E05E3CD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE5A831D-B612-49E4-84D4-B538E05E3CD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE5A831D-B612-49E4-84D4-B538E05E3CD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE5A831D-B612-49E4-84D4-B538E05E3CD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9743A7D2-1FB0-4A03-9CC1-C4B4A532C3BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9743A7D2-1FB0-4A03-9CC1-C4B4A532C3BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9743A7D2-1FB0-4A03-9CC1-C4B4A532C3BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9743A7D2-1FB0-4A03-9CC1-C4B4A532C3BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F439BF63-63D6-4597-8CA8-95F1AF184FD1} = {4B4C4FFF-4C43-4BD1-B862-389CB7E00877}
+		{FEA13CF1-C9D2-4F7F-9882-9B4F39D74AD0} = {4B4C4FFF-4C43-4BD1-B862-389CB7E00877}
+		{FE5A831D-B612-49E4-84D4-B538E05E3CD0} = {F974EDC5-A7EA-4E93-95D6-E1D145485EEB}
+		{9743A7D2-1FB0-4A03-9CC1-C4B4A532C3BF} = {F974EDC5-A7EA-4E93-95D6-E1D145485EEB}
+	EndGlobalSection
+EndGlobal
